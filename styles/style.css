@@ -176,6 +176,7 @@ footer {
 
 .blog__img img {
     width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .blog .blog__content {
@@ -193,6 +194,7 @@ footer {
 }
 
 .blog__content h2 {
+    height: 95px;
     font-size: 16px;
     margin-bottom: 20px;
 }
