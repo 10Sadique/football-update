@@ -61,6 +61,7 @@ header {
 }
 
 .btn {
+    font-size: 20px;
     text-decoration: none;
     color: #FEFBF6;
     background-color: #7F5283;
