@@ -163,7 +163,7 @@ footer {
     text-align: center;
 }
 
-.contents__blogs {
+.contents__blogs  {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
@@ -210,6 +210,7 @@ footer {
 .info ul li span {
     margin-left: 10px;
 }
+
 
 /********* View all button *********/
 .view__all {
@@ -269,5 +270,57 @@ footer {
 .round__bg:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 15px #fefbf627;
+}
+
+/********* Match Section *************/
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.matches .match {
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    height: 242px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.match .match__details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team__flags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30%;
+
+    margin-bottom: 20px;
+}
+
+.team__flags img {
+    width: 100%;
+}
+
+.team__flags h4 {
+    padding: 0 10px;
+}
+
+.team__names {
+    margin-bottom: 10px;
+}
+
+.match__time {
+    color: #4d4d4dc7
+    ;
 }
 
