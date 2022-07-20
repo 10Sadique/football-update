@@ -255,6 +255,11 @@ footer {
 .footer ul li a {
     color: #fefbf6;
     text-decoration: none;
+    transition: all 0.3s;
+}
+
+.link:hover {
+    color: #b671bd;
 }
 
 .round__bg {
@@ -268,11 +273,13 @@ footer {
     background-color: #fefbf634;
     border-radius: 50%;
 
-    transition: all 0.3s;
+    box-shadow: 0 10px 10px #7f52834b;
 }
 .round__bg:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 15px #fefbf627;
+    box-shadow: 0 12px 15px #7f52833a;
+    color: #b671bd;
+    background-color: #7f528334;
 }
 
 /********* Match Section *************/
@@ -365,6 +372,7 @@ footer {
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
+
         line-height: normal;
         font-size: 14px;
         width: 100%;
