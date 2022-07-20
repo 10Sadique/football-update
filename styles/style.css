@@ -85,6 +85,8 @@ footer {
 .btn__primary {
     color: #fefbf6;
     background-color: #7f5283;
+    
+    box-shadow: 0 10px 15px rgb(0 0 0 / 10%);
 }
 
 .btn:hover {
@@ -141,6 +143,7 @@ footer {
 
 .contents .contents__nav {
     background-color: #3d3c42;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 10%);
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -170,6 +173,7 @@ footer {
 .contents__blogs .blog {
     border-radius: 10px;
     border: 1px solid #e8e8e8;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 10%);
 }
 
 .blog__img img {
@@ -282,6 +286,7 @@ footer {
     border-radius: 10px;
     border: 1px solid #e8e8e8;
     height: 242px;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 10%);
 
     display: flex;
     align-items: center;
@@ -392,6 +397,7 @@ footer {
         height: auto;
         gap: 20px;
         background-color: transparent;
+        box-shadow: none;
     }
 
     .btn__secondary {
@@ -513,6 +519,7 @@ footer {
         padding: 0;
         height: auto;
         background-color: transparent;
+        box-shadow: none;
     }
 
     .btn__secondary {
