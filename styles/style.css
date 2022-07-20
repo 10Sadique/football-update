@@ -108,7 +108,6 @@ footer {
 
 .header__img img {
     width: 100%;
-    /* height: 100%; */
 }
 
 /*********** Blogs Section ************/
@@ -526,7 +525,6 @@ footer {
         font-size: 20px;
         padding:12px 20px;
     }
-
 
     .header__img img {
         width: 90%;
