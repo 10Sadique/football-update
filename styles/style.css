@@ -371,6 +371,8 @@ footer {
         padding: 0 40px;
         margin-top: 4vh;
         margin-bottom: 0;
+
+        border-radius: 20px;
     }
 
     .header__info {
